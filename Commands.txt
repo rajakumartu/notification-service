@@ -1,0 +1,10 @@
+docker build -t 654901581996.dkr.ecr.us-east-1.amazonaws.com/notification-service .
+
+docker run --name notification-service -p 8080:8080 --rm -d 654901581996.dkr.ecr.us-east-1.amazonaws.com/notification-service
+
+
+git status
+git add .
+git commit -am "Adding all files"
+git push
+git status
